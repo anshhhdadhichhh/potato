@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    display:flex;
+    height:7%;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    align-items:center;
+    position:absolute;
+}
+
+#profilephoto{
+    height:2.5rem;
+    width:2.5rem;
+    margin-left:30%;
+}
+
+.header-text span{
+    color:white;
+    margin-left:3rem;
+}
+
+.welcome-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:30em;
+    background-image:url("backgroundimage.jpeg");
+    z-index : -1;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.welcome-section h1,p,button{
+  margin:1em;
+  color:white;
+}
+
+button{
+    background-color:rgba(255,255,255,0.5);
+    border-radius:5px;
+    padding:0.5rem;
+    border-color:white;
+}
+
+h3{
+   margin-left:44%;
+   margin-top:1.5rem;
+   margin-bottom:1.5rem;
+   font-size:2rem;
+}
+
+.services{
+    display:flex;
+}
+
+.service img{
+    height:15rem;
+    width:15rem;
+}
+
+.service{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:0.5rem solid orange;
+    border-radius:5%;
+    margin:1.5rem;
+    height:30em;
+    width:30em;
+}
+
+.services p{
+   color:black;
+}
+
+.clientss{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.clientss img{
+    height:5rem;
+    width:7rem;
+}
+
+.clients{
+    background-color:rgba(138, 138, 138, 0.5);
+    padding:3%;
+}
+
+.footer{
+    margin-top: 2rem;
+    background-color:rgba(138, 138, 138, 0.5);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:3rem;
+}
+
+.footer .input{
+    display:flex;
+    flex-direction:column;
+    width:70%;
+    color:black;
+}
+
