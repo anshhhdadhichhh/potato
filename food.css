@@ -57,6 +57,7 @@ h3{
 
 .services{
     display:flex;
+    justify-content:space-evenly;
 }
 
 .service img{
